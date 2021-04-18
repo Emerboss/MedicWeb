@@ -1,29 +1,48 @@
 /*HEADER*/
-.text-coctactanos {
-    color: #ADFF2F !important;
-}
 
-#header img{
-    width: 100px;
+
+/*----------Navigation-------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+ 
+}
+.navbar-brand img
+{
     height: 100px;
-    display: block;
-    margin-bottom: -40px;
-    
-
+    width: auto;
+    padding-left: 30px;
+    margin-top: -20px;
+    margin-bottom: -45px;
 }
-#header{  
-    background: linear-gradient(to right, #ACE1AF, #018749);
-  
+.navbar-nav li
+{
+    padding: 0 10px;
 }
-
-/* NAV*/
-ul{
-    margin: 200px;
-    margin-right: 237px;
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
 }
-li{
-    padding-left: 100px;
-
+#nav-bar ul li a:hover
+{
+    color: #747c85!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
 }
 /* NAV*/
 /*main*/
@@ -50,20 +69,36 @@ li{
     height: 100%;
   }
   
-  .btn-docweb {
-    background-color: #97c93e;
-    color: white;
-  }
+ 
+ 
   
-  .btn-docweb:hover {
-    background-color: #82ad36;
-  }
+  .btn-docweb {background-image: linear-gradient(to right, #007991 0%, #78ffd6  51%, #007991  100%)}
+  .btn-docweb {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 3s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
 
+   .btn-docweb:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  
+  
 /*main*/
 
 /*footer*/
 #footer{
-    background: linear-gradient(to right, #ACE1AF, #018749);
+    background: linear-gradient(to right,#b8b8b8, #004953);
     height: 100px;
     width: 100%; 
 }
@@ -84,8 +119,6 @@ li{
     height: 150px;
     width: 150px;
     display: block;
-position: absolute;
-align-items: flex-start;
 margin-top: -73px;
 margin-left: -75px;
 }
