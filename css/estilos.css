@@ -14,8 +14,9 @@
     height: 100px;
     width: auto;
     padding-left: 30px;
-    margin-top: -20px;
-    margin-bottom: -45px;
+    margin-top: -100px;
+    margin-top: 30px;
+    
 }
 .navbar-nav li
 {
@@ -98,27 +99,36 @@
 
 /*footer*/
 #footer{
-    background: linear-gradient(to right,#b8b8b8, #004953);
-    height: 100px;
-    width: 100%; 
+    background: black;
+    height: 80px;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);  
+    /*  poner footer abajo */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    
 }
 
 #footer a{
     text-decoration:none;
   color: #fff;
   position: relative;
-  margin-bottom: -100px;
+
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   
 }
 #footer a:hover {
-     color: 00E676;; 
+     color: #00E676;; 
 }
 
 
 .logof{
-    height: 150px;
-    width: 150px;
-    display: block;
-margin-top: -73px;
-margin-left: -75px;
+    height: 100px;
+    width: 100px;
+    position:block;
+    margin-top: -60px;
+
+    margin-left: -20px;
 }
