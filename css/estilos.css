@@ -14,11 +14,10 @@ body{
 }
 .navbar-brand img
 {
-    height: 80px;
+    height: 100px;
     width: auto;
     padding-left: 30px;
     margin-bottom: -35px;
-  
     
 }
 .navbar-nav li
@@ -56,9 +55,11 @@ main{
 margin-top: 25px;
 }
 main .carousel-inner img {
-    max-height: 70vh;
+    max-height: 80vh;
     object-fit: cover;
     filter: grayscale(80%);
+    margin-top: 5px;
+    margin-bottom: 20px;
   }
   #carousel {
     position: relative;
@@ -79,16 +80,29 @@ main .carousel-inner img {
   }
   
  
- 
-  
-  
-  
+ /*mante*/
+.mante{
+    text-align: center; padding: 150px;
+}
+.mante h1{
+    font-size: 50px;
+}
+body .mante{
+    font: 20px Helvetica, sans-serif; color: #333;
+}
+body article .mante{
+    display: block; text-align: left; width: 650px; margin: 0 auto; 
+}
+  .mante a{
+    color: #dc8100; text-decoration: none; 
+  }
+  .mante a:hover { color: #333; text-decoration: none; }
 /*main*/
 
 /*footer*/
 #footer{
     background: black;
-    height: 70px;
+    height: 80px;
     border-top: 2px solid rgba(0, 0, 0, 0.24);  
     /*  poner footer abajo */
     position: fixed;
