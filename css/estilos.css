@@ -54,6 +54,8 @@ body{
 main{
 margin-top: 25px;
 }
+
+  
 main .carousel-inner img {
     max-height: 80vh;
     object-fit: cover;
@@ -64,6 +66,7 @@ main .carousel-inner img {
   #carousel {
     position: relative;
   }
+  
   #carousel .overlay {
     position: absolute;
     top: 0;
@@ -111,6 +114,7 @@ body article .mante{
     width: 100%;
 }
 
+
 #footer a{
     text-decoration:none;
   color: #fff;
@@ -143,7 +147,5 @@ body article .mante{
     margin-top: 50px;
    
 }
-
-
 
 
